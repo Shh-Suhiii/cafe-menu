@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(39, 38, 51);
+    color: #ffffff;
+}
+
+.container {    
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar{
+        position: fixed;
+    }
+}
+
+.nav-links {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+    margin: 20px 20px 80px 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: #000000;
+    border-radius: 90px;
+}
+
+.card h3{
+    border: 2px solid black;
+    border-radius: 200px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.image {
+    margin: 20px;
+    padding: 20px;
+    width: 340px;
+    height: 270px;
+}
+
+.menu{
+    margin: 50px 0px 50px 0px ;
+}
+
+.menu-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+
+.menu-name {
+    margin: 20px;
+    padding: 20px;
+    width: 340px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(39, 38, 51);
+    color: #ffffff;
+    border-radius: 200px;
+    font-size: 20px;
+}
+
+.menu-price {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color: #000000;
+
+
+    box-shadow: inset 2px #d6d6d6;
+}
+
+.menu-order-button {
+    display: inline-block;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(39, 38, 51);
+    color: #ffffff;
+}
+
+footer {
+    background-color: #d6d6d6;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
